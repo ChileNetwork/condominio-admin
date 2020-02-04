@@ -1,0 +1,7 @@
+RewriteEngine on
+
+# remove trailing slashes
+RewriteRule (.*)/$ $1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
