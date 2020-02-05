@@ -31,16 +31,18 @@ class SistemaController extends Controller
     {
         //$ucostipo_de_condominio = \App\CondominioUcostipo::where('condominio_id',$c)->get();
         return view('sistema.tipouco.index', [
-            'tipoucos' => UcoTipo::all()
+            //'tipoucos' => UcoTipo::all()
         ]);
     }
 
     public function mostrarDashboard()
     {
+        
         return view('sistema.dashboard', [
+            
             'users' => User::all(),
             'meses_abrev' => $this->meses_abrev,
-            'condominios' => Condominio::all()
+            //'condominios' => Condominio::all()
         ]);
     }
 

@@ -98,9 +98,9 @@ class LoginController extends Controller
         $request->validate([
             $this->username() => 'required|string',
             'password' => 'required|string',
-        ]);
+        ]); 
     }
-    
+
 
     /**
      * Send the response after the user was authenticated.

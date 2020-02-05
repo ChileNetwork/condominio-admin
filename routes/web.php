@@ -27,7 +27,7 @@ Route::group(['prefix' => 'home'], function () {
 
 
 /*** SISTEMA ***/
-//, 'middleware' => ['role:gerente']
+//
 Route::group(['prefix' => 'sistema'], function() { 
       
     Route::redirect('/','sistema/index',301)->name('sistema'); 
