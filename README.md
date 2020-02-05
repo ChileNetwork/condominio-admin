@@ -1,10 +1,10 @@
-# Software para administrar una inmobiliaria
+# Software para administrar Condominios
 
 ## Basado en Framework Laravel
 Primer Commit desde la última versión estable del Framework Laravel (v6.13.1) el 04 Febrero 2019. 
 
 ## Service Providers de terceras partes instalados son:
-- Laratrust: Provee <strong>Control de Acceso</strong> basado en Roles de Usuario. Significa que cada Usuario registrado en el sistema tendrá, desde el primer momento, un Rol asociado a él. De esa manera se verifica en el Router utilizando MiddleWare 
+- Laratrust: Provee <strong>Control de Acceso</strong> basado en Roles de Usuario. Significa que cada Usuario registrado en el sistema tendrá, desde el primer momento, un Rol asociado a él.
 > composer require "santigarcor/laratrust:5.2.*"
 
 ## Licencias
